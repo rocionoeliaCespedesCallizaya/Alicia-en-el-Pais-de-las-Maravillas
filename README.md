@@ -2,7 +2,7 @@
 
 * **Nombre del estudiante:** Rocio Noelia Cespedes Callizaya
 * **Fecha de entrega:** 28/10/2026
-* **Enlace de la página publicada:** 
+* **Enlace de la página publicada:** https://rocionoeliacespedescallizaya.github.io/Alicia-en-el-Pais-de-las-Maravillas/
 * **Enlace del repositorio Git:** 
 * **Enlace del video (máximo 3 minutos):** 
 
