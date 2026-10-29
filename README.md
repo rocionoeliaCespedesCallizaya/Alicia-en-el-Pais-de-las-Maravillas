@@ -63,4 +63,4 @@ Recorre una secuencia numérica mediante un ciclo `for` para clasificar pares e 
 
 ![Ejercicio 1](https://github.com/rocionoeliaCespedesCallizaya/Alicia-en-el-Pais-de-las-Maravillas/blob/44c54c7f8a50e1f4d329cb2bbb18c9793923e61d/img/captura%202.png)
 
-![Ejercicio 1]()
+![Ejercicio 1](https://github.com/rocionoeliaCespedesCallizaya/Alicia-en-el-Pais-de-las-Maravillas/blob/3364442abcf8ca97c683bf9ecb8a8571943989c6/img/captura%203.png)
