@@ -59,7 +59,7 @@ Recorre una secuencia numérica mediante un ciclo `for` para clasificar pares e 
 
 ## 📷 Capturas de Interfaz
 
-![Ejercicio 1]()
+![Ejercicio 1](https://github.com/rocionoeliaCespedesCallizaya/Alicia-en-el-Pais-de-las-Maravillas/blob/e3879ade2da5b70bf01256618533502ab33f94bc/img/captura%201.png)
 
 ![Ejercicio 1]()
 
