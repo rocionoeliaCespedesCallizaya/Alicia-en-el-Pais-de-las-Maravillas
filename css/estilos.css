@@ -1,0 +1,133 @@
+/* Paleta inspirada en Alicia: Violeta Real, Azul Fantasía, Marfil y Carmesí */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4effa;
+    color: #2d1b36;
+    text-align: center;
+}
+
+.cabecera {
+    background-color: #4a235a;
+    color: #ffffff;
+    padding: 25px 10px;
+    border-bottom: 5px solid #d4ac0d;
+}
+
+.cabecera h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    border: 1px solid #dcd0e8;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.tarjeta h2 {
+    color: #5b2c6f;
+    font-size: 20px;
+    border-bottom: 2px solid #ebf5fb;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+.regla-formula {
+    background-color: #f5eeed;
+    border-left: 4px solid #a93226;
+    padding: 10px;
+    font-size: 13.5px;
+    margin-bottom: 15px;
+}
+
+/* Formulario con Maquetación Tradicional (inline-block) */
+.grupo-campo {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #34495e;
+}
+
+input[type="number"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+
+input:focus, select:focus {
+    border-color: #5b2c6f;
+    outline: none;
+}
+
+.btn {
+    background-color: #5b2c6f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #4a235a;
+}
+
+/* Caja de Resultados y Errores */
+.caja-resultado {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #eaeded;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.mensaje-exito {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.mensaje-error {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.pie-pagina {
+    background-color: #2d1b36;
+    color: #bdc3c7;
+    padding: 15px;
+    font-size: 12px;
+    margin-top: 40px;
+}

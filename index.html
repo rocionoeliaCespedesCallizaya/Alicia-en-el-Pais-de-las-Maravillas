@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alicia en el País de las Maravillas - Actividad JS</title>
+    <link rel="stylesheet" href="css\estilos.css">
+</head>
+<body>
+
+    <header class="cabecera">
+        <h1>ALICIA EN EL PAIS DE LAS MARAVILLAS</h1>
+    </header>
+
+    <main class="contenedor">
+        
+        <!-- EJERCICIO 1: LA POCIÓN MÁGICA -->
+        <section class="tarjeta">
+            <h2>EJERCICIO 1: La poción mágica de Alicia</h2>
+            <p class="regla-formula"><strong>Regla:</strong> Nueva Altura = Altura Inicial &times; (1 - Cantidad de Poción / 100). La puerta mide 50 cm de alto.</p>
+            
+            <form id="formPocion">
+                <div class="grupo-campo">
+                    <label for="alturaInicial">Altura inicial de Alicia (cm):</label>
+                    <input type="number" id="alturaInicial" step="any" placeholder="Ej. 150">
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="cantidadPocion">Cantidad de poción (ml, 0 a 90):</label>
+                    <input type="number" id="cantidadPocion" step="any" placeholder="Ej. 70">
+                </div>
+
+                <button type="submit" class="btn">Beber Poción</button>
+            </form>
+
+            <div id="resultadoPocion" class="caja-resultado">
+                Ingrese los datos para calcular si Alicia logra atravesar la puerta.
+            </div>
+        </section>
+
+        <!-- EJERCICIO 2: LA MERIENDA DEL SOMBRERERO LOCO -->
+        <section class="tarjeta">
+            <h2>EJERCICIO 2: La merienda del Sombrerero Loco</h2>
+            <p class="regla-formula"><strong>Precios:</strong> Té de Jazmín (12 Bs), Café del Sombrerero (15 Bs), Infusión de Rosas (10 Bs), Chocolate Maravilla (18 Bs). <br><em>Descuento del 10% si se piden más de 5 tazas.</em></p>
+            
+            <form id="formMerienda">
+                <div class="grupo-campo">
+                    <label for="nombreInvitado">Nombre del invitado:</label>
+                    <input type="text" id="nombreInvitado" placeholder="Ej. Conejo Blanco">
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="tipoBebida">Seleccione la bebida:</label>
+                    <select id="tipoBebida">
+                        <option value="">-- Seleccione una opción --</option>
+                        <option value="te">Té de Jazmín - 12 Bs</option>
+                        <option value="cafe">Café del Sombrerero - 15 Bs</option>
+                        <option value="infusion">Infusión de Rosas - 10 Bs</option>
+                        <option value="chocolate">Chocolate Maravilla - 18 Bs</option>
+                    </select>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="cantidadTazas">Cantidad de tazas (1 a 20):</label>
+                    <input type="number" id="cantidadTazas" placeholder="Ej. 6">
+                </div>
+
+                <button type="submit" class="btn">Calcular Cuenta</button>
+            </form>
+
+            <div id="resultadoMerienda" class="caja-resultado">
+                Seleccione la orden para ver el desglose del cobro.
+            </div>
+        </section>
+
+        <!-- EJERCICIO 3: EL DESAFÍO DE LA REINA DE CORAZONES -->
+        <section class="tarjeta">
+            <h2>EJERCICIO 3: El desafío de la Reina de Corazones</h2>
+            <p class="regla-formula"><strong>Regla:</strong> Ingrese un número de cartas. El sistema analizará la secuencia completa, sumando pares e impares por separado.</p>
+            
+            <form id="formReina">
+                <div class="grupo-campo">
+                    <label for="cantidadCartas">Número de cartas a analizar (1 a 50):</label>
+                    <input type="number" id="cantidadCartas" placeholder="Ej. 10">
+                </div>
+
+                <button type="submit" class="btn">Analizar Cartas</button>
+            </form>
+
+            <div id="resultadoReina" class="caja-resultado">
+                Ingrese el número de cartas para mostrar la secuencia y resultados.
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="pie-pagina">
+        <p>Programación Web I - Proyecto Alicia en el País de las Maravillas</p>
+    </footer>
+
+    <script src="js\alicia.js"></script>
+</body>
+</html>
